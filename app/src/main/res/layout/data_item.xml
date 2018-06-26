@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dip" >
+
+    <TextView
+        android:id="@+id/tagid"
+        android:layout_width="200dip"
+        android:layout_height="50dip"
+        android:layout_weight="1"
+        android:ellipsize="middle"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:layout_weight="1"
+        android:ellipsize="middle"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/copy"
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:text="@string/copy"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+</LinearLayout>
